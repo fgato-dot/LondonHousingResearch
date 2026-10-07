@@ -169,3 +169,27 @@ Analysing average prices over time helps identify longer-term housing market tre
 The Python analysis provides the analytical foundation for an interactive **Tableau dashboard**, which will make it easier to compare boroughs, examine trends and communicate the results visually.
 
 > **Note:** The findings presented above are based on the current Python EDA. Additional insights will be added after the Tableau dashboard is completed and the visual analysis has been finalised.
+
+## Technologies & Tools
+
+The project uses the following technologies and tools:
+
+### Programming & Data Analysis
+
+- **Python** — data processing and analysis
+- **Pandas** — data cleaning, transformation and analysis
+- **NumPy** — numerical data processing
+
+### Data Visualisation
+
+- **Tableau** — interactive dashboard development and visualisation
+
+### Development Environment
+
+- **PyCharm** — Python development environment
+- **Git** — version control
+- **GitHub** — project versioning, documentation and portfolio hosting
+
+### Data
+
+- **UK House Price Index (UK HPI)** — source housing market dataset
