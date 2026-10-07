@@ -1,0 +1,15 @@
+# PyCharm
+.idea/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Data
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
