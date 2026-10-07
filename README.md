@@ -21,3 +21,14 @@ The analysis follows a complete data analytics workflow:
 - Presentation of key findings and insights
 
 The Tableau dashboard is currently under development and will be added to the project once completed.
+
+## Business Objectives
+
+The main objectives of the project are to:
+
+- Analyse house price trends across London over time.
+- Compare average house prices between London boroughs.
+- Identify the most and least expensive boroughs.
+- Understand geographical differences in the London housing market.
+- Transform raw housing data into clear and useful insights.
+- Develop an interactive Tableau dashboard to support housing market analysis and decision-making.
