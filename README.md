@@ -107,3 +107,39 @@ data/london_housing_clean.csv
 - CSV data processing
 
 The cleaning process provides a consistent dataset for the subsequent exploratory analysis and Tableau visualisations.
+
+## Exploratory Data Analysis (EDA)
+
+After cleaning the dataset, I performed exploratory data analysis using **Python and Pandas** to identify patterns and trends in the London housing market.
+
+The cleaned dataset contains approximately **150,706 records and 54 columns**.
+
+### Analysis Performed
+
+The EDA focused on:
+
+- Analysing London house price trends over time.
+- Calculating average house prices by borough.
+- Identifying the most expensive London boroughs.
+- Identifying lower-priced boroughs.
+- Comparing house prices across London boroughs.
+- Examining changes in average house prices over time.
+- Preparing the results for visualisation in Tableau.
+
+### Latest House Price Analysis
+
+The latest available date in the analysed dataset was **4 January 2026**.
+
+The highest average house prices at the latest date included:
+
+| Borough | Average House Price |
+|---|---:|
+| Kensington and Chelsea | £1,272,760 |
+| City of Westminster | £814,679 |
+| Camden | £794,527 |
+| Richmond upon Thames | £794,027 |
+| Hammersmith and Fulham | £741,612 |
+| Wandsworth | £670,960 |
+| Islington | £665,067 |
+
+These results demonstrate substantial differences in average property prices between London boroughs and provide a basis for further geographical and time-series analysis.
