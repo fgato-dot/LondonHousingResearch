@@ -67,3 +67,43 @@ The data preparation process included:
 The cleaned dataset was saved as:
 
 `london_housing_clean.csv`
+
+## Data Cleaning with Python
+
+The raw UK HPI dataset was cleaned and prepared for analysis using **Python and Pandas**.
+
+The main data-cleaning steps were implemented in the `01_clean_data.py` script.
+
+### Cleaning Process
+
+1. **Load the raw dataset**
+   - Imported the UK HPI CSV file using Pandas.
+   - The `cp1252` encoding was used to correctly read the source file.
+
+2. **Date conversion**
+   - Converted the `Date` column into a proper date format to support time-series analysis.
+
+3. **Remove duplicates**
+   - Checked the dataset for duplicate records and removed duplicates where required.
+
+4. **Handle missing values**
+   - Identified missing values and applied appropriate cleaning procedures.
+
+5. **Filter London boroughs**
+   - Selected the London boroughs required for the analysis.
+
+6. **Create the cleaned dataset**
+   - Exported the prepared data to:
+
+```text
+data/london_housing_clean.csv
+```
+
+### Python Tools
+
+- Python
+- Pandas
+- NumPy
+- CSV data processing
+
+The cleaning process provides a consistent dataset for the subsequent exploratory analysis and Tableau visualisations.
