@@ -143,3 +143,29 @@ The highest average house prices at the latest date included:
 | Islington | £665,067 |
 
 These results demonstrate substantial differences in average property prices between London boroughs and provide a basis for further geographical and time-series analysis.
+
+## Key Findings
+
+The exploratory analysis identified several important characteristics of the London housing market.
+
+### 1. Significant variation between boroughs
+
+Average house prices vary considerably across London boroughs. The latest analysis shows particularly high average prices in **Kensington and Chelsea, Westminster, Camden and Richmond upon Thames**.
+
+### 2. Central and high-value areas command premium prices
+
+The analysis indicates that several central and traditionally high-value London areas have substantially higher average property prices than other boroughs.
+
+### 3. Housing affordability differs significantly across London
+
+The large variation in average prices highlights significant differences in housing affordability between boroughs. This makes borough-level analysis particularly useful when assessing the London housing market.
+
+### 4. Time-series analysis provides additional market context
+
+Analysing average prices over time helps identify longer-term housing market trends rather than relying only on a single period.
+
+### 5. Data visualisation can improve market interpretation
+
+The Python analysis provides the analytical foundation for an interactive **Tableau dashboard**, which will make it easier to compare boroughs, examine trends and communicate the results visually.
+
+> **Note:** The findings presented above are based on the current Python EDA. Additional insights will be added after the Tableau dashboard is completed and the visual analysis has been finalised.
