@@ -32,3 +32,38 @@ The main objectives of the project are to:
 - Understand geographical differences in the London housing market.
 - Transform raw housing data into clear and useful insights.
 - Develop an interactive Tableau dashboard to support housing market analysis and decision-making.
+
+## Data Source & Dataset
+
+The project uses data from the **UK House Price Index (UK HPI)**, which provides information on residential property prices across the UK.
+
+The analysis focuses specifically on London and its boroughs.
+
+### Dataset Used
+
+The original dataset contains historical UK HPI data with information covering:
+
+- Date
+- London borough
+- Average house price
+- House price indices
+- Property sales and transaction-related measures
+- Other housing market indicators
+
+The original dataset was imported into Python using Pandas and prepared for analysis.
+
+### Data Preparation
+
+The data preparation process included:
+
+1. Loading the original UK HPI dataset.
+2. Handling the dataset encoding using `cp1252`.
+3. Converting the `Date` field into a proper date format.
+4. Removing duplicate records.
+5. Handling missing values where required.
+6. Filtering the dataset to London boroughs.
+7. Exporting the cleaned dataset for subsequent analysis and visualisation.
+
+The cleaned dataset was saved as:
+
+`london_housing_clean.csv`
