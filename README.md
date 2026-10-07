@@ -196,27 +196,18 @@ The project uses the following technologies and tools:
 
 ## Project Structure
 
-The project is organised into separate components for data preparation, analysis and visualisation.
+The project currently contains the following main files:
 
 ```text
 LondonHousingResearch/
 │
-├── data/
-│   └── london_housing_clean.csv
-│
 ├── 01_clean_data.py
-│
 ├── 02_eda.py
-│
 ├── .gitignore
-│
 └── README.md
 ```
 
 ### Main Components
-
-**`data/`**  
-Contains the prepared dataset used for the analysis.
 
 **`01_clean_data.py`**  
 Cleans and prepares the original UK HPI dataset using Python and Pandas.
@@ -225,10 +216,24 @@ Cleans and prepares the original UK HPI dataset using Python and Pandas.
 Performs exploratory data analysis, including borough-level price comparisons and analysis of house price trends over time.
 
 **`.gitignore`**  
-Specifies files and folders that should not be tracked by Git, such as the Python virtual environment and local development files.
+Prevents local development files, Python virtual environments and raw CSV data from being uploaded to GitHub.
 
 **`README.md`**  
-Provides documentation of the project, methodology, findings and technologies used.
+Documents the project, methodology, analysis, findings and technologies used.
+
+### Local Data
+
+The original UK HPI dataset and the cleaned CSV dataset are stored locally and are excluded from the GitHub repository through `.gitignore`.
+
+This keeps the repository lightweight while allowing the analysis to be reproduced using the documented data source and Python scripts.
+
+### Dashboard
+
+The interactive **Tableau dashboard** is currently under development and will be added to the project once it is finalised.
+
+
+
+
 
 ### Dashboard
 
