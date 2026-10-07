@@ -193,3 +193,44 @@ The project uses the following technologies and tools:
 ### Data
 
 - **UK House Price Index (UK HPI)** — source housing market dataset
+
+## Project Structure
+
+The project is organised into separate components for data preparation, analysis and visualisation.
+
+```text
+LondonHousingResearch/
+│
+├── data/
+│   └── london_housing_clean.csv
+│
+├── 01_clean_data.py
+│
+├── 02_eda.py
+│
+├── .gitignore
+│
+└── README.md
+```
+
+### Main Components
+
+**`data/`**  
+Contains the prepared dataset used for the analysis.
+
+**`01_clean_data.py`**  
+Cleans and prepares the original UK HPI dataset using Python and Pandas.
+
+**`02_eda.py`**  
+Performs exploratory data analysis, including borough-level price comparisons and analysis of house price trends over time.
+
+**`.gitignore`**  
+Specifies files and folders that should not be tracked by Git, such as the Python virtual environment and local development files.
+
+**`README.md`**  
+Provides documentation of the project, methodology, findings and technologies used.
+
+### Dashboard
+
+The interactive **Tableau dashboard** is currently under development and will be added to the project once the dashboard is finalised.
+
