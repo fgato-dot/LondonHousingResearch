@@ -231,11 +231,58 @@ This keeps the repository lightweight while allowing the analysis to be reproduc
 
 The interactive **Tableau dashboard** is currently under development and will be added to the project once it is finalised.
 
+## Analysis Workflow
+
+The project follows a structured data analytics workflow from raw data to interactive visualisation.
+
+```text
+UK House Price Index (UK HPI)
+            │
+            ▼
+     Raw Housing Data
+            │
+            ▼
+   Python + Pandas
+   Data Cleaning
+            │
+            ▼
+   Cleaned Housing Data
+            │
+            ▼
+ Exploratory Data Analysis
+       (EDA)
+            │
+            ▼
+ Borough & Time-Series
+       Analysis
+            │
+            ▼
+      Tableau
+ Interactive Dashboard
+```
+
+### Workflow Steps
+
+**1. Data Collection**  
+The project starts with UK House Price Index data containing historical housing market information.
+
+**2. Data Cleaning**  
+Python and Pandas are used to clean and prepare the data, including date conversion, duplicate removal, missing-value handling and filtering for London boroughs.
+
+**3. Exploratory Data Analysis**  
+The cleaned data is analysed to identify trends, patterns and differences in average house prices across London.
+
+**4. Borough Analysis**  
+Average house prices are compared across London boroughs to identify higher- and lower-priced areas.
+
+**5. Time-Series Analysis**  
+Historical house price data is analysed over time to identify changes and longer-term trends.
+
+**6. Tableau Visualisation**  
+The analysis will be transformed into an interactive Tableau dashboard to communicate the key findings clearly.
+
+**7. Market Insights**  
+The final dashboard will combine the analytical results into an accessible view of the London housing market.
 
 
-
-
-### Dashboard
-
-The interactive **Tableau dashboard** is currently under development and will be added to the project once the dashboard is finalised.
 
